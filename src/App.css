@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: url('./assets/background-sign-up.jpg');
+    }
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    min-height: 700px;
+    padding: 10px;
+    /* background-color: #c5d6d2; */
+    border-radius: 5%;
+}
+
+.logo {
+    width: 10%;
+}
+
+.task_container {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.task {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
